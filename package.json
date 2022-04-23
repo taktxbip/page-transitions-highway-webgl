@@ -42,7 +42,7 @@
         "webpack-shell-plugin-next": "^2.2.2"
     },
     "dependencies": {
-        "gsap": "^3.9.1",
-        "pubsub-js": "^1.9.4"
+        "@dogstudio/highway": "^2.2.1",
+        "gsap": "^3.9.1"
     }
 }
