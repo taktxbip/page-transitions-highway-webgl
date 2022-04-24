@@ -1,6 +1,11 @@
 @import './libs/_functions';
 @import './config/variables';
 @import './libs/_mixins';
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .nav {
     display: block;
     text-align: center;
@@ -27,7 +32,12 @@
 }
 
 h1 {
-    font: bold normal 50px / 1.4 sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font: 900 normal 13vh / 1.4 sans-serif;
     text-align: center;
     span {
         display: inline-block;

@@ -44,6 +44,7 @@
     "dependencies": {
         "@dogstudio/highway": "^2.2.1",
         "charming": "^3.0.2",
-        "gsap": "^3.9.1"
+        "gsap": "^3.9.1",
+        "pixi.js": "^6.3.0"
     }
 }
